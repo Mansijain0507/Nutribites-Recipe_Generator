@@ -6,16 +6,14 @@
   box-shadow: 8px 5px 5px 2px #9e9c9c26;
   letter-spacing: 1px;
   border: 1px solid #80808024;
-  /* background-color: #370617; */
   background-color: beige;
-  ;
-
+  transition: transform 200ms ease-in-out;
+  /* Moved transition here */
 }
 
 .recipe:hover,
 .recipe:active {
   transform: scale(1.02);
-  transition: transform 200ms ease-in-out;
 }
 
 .recipe_title {
@@ -61,18 +59,13 @@
   color: #370617;
 }
 
-
-
 .vertical-center {
   margin: 0;
   position: absolute;
   top: 50%;
-  -ms-transform: translateY(-50%);
   transform: translateY(-50%);
   text-align: center;
 }
-
-
 
 .site-button {
   justify-content: center;
@@ -80,7 +73,6 @@
   padding: 5px 10px;
   font-size: 15px;
   margin-left: 45px;
-
   cursor: pointer;
   text-align: center;
   text-decoration: none;
@@ -89,7 +81,6 @@
   background-color: #370617;
   border: none;
   border-radius: 20px;
-
 }
 
 .newBtn {
@@ -100,7 +91,6 @@
   padding: 15px 25px;
   font-size: 25px;
   cursor: pointer;
-
   text-align: center;
   text-decoration: none;
   outline: none;
@@ -108,13 +98,11 @@
   background-color: #370617;
   border: none;
   border-radius: 20px;
-
 }
 
 .site-button:hover {
   background-color: bisque;
   color: #370617;
-
 }
 
 .site-button:active {
@@ -133,20 +121,14 @@
 .my-button {
   display: inline-block;
   margin: 5px;
-  /* space between buttons */
   background: #370617;
-  /* background color */
   color: white;
-  /* text color */
   font-size: 1.5em;
-  font-family: ‘Georgia’, serif;
+  font-family: 'Georgia', serif;
+  /* Fixed incorrect font-family syntax */
   font-style: italic;
   border-radius: 50px;
-  /* rounded corners */
   padding: 8px 16px;
-  /* space around text */
-  -moz-transition: all 0.2s;
-  -webkit-transition: all 0.2s;
   transition: all 0.2s;
 }
 

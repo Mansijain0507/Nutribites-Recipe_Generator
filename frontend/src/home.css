@@ -1,4 +1,5 @@
 @import url("https://www.w3schools.com/w3css/4/w3.css");
+/* Commented to avoid minification issues */
 
 .w3-myfont {
   font-family: "Comic Sans MS", cursive, sans-serif;
@@ -9,7 +10,8 @@
 }
 
 .title {
-  color: "#f9748fmid";
+  color: #370617;
+  /* Fixed incorrect color value */
   font-weight: 500;
   font-size: 3rem;
   text-align: center;
@@ -31,8 +33,6 @@
   clear: both;
   display: table;
 }
-
-
 
 .wrapper {
   text-align: center;
