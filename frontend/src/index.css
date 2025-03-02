@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+
+}
+
+
+.container {
+    width: 100vw;
+    min-height: 100vh;
+    /* background-color: #F0E68C; */
+    transition: 0.5s;
+}
+
+.container.dark {
+    background: #000;
+}
