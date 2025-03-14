@@ -6,10 +6,6 @@ Tech stack to implement this project -
 - Frontend framework	: ReactJS
 - Backend framework		: Flask, Flask-SQLAlchemy
 - Database			      : sqlite3
-- System testing      : Selenium
-- Unit testing		  	: pytest
-- Performance testing : Postman and K6
-
 
 ## Available Scripts
 
