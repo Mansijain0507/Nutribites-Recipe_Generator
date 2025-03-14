@@ -4,8 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 Tech stack to implement this project -
 - Frontend framework	: ReactJS
-- Backend framework		: Flask, Flask-SQLAlchemy
-- Database			      : sqlite3
+- Api : Edamam food api
 
 ## Available Scripts
 
